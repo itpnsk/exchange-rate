@@ -1,0 +1,65 @@
+:root {
+    --main: #5fbaa7;
+}
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container #logo {
+    width: 150px;
+}
+
+#container h1 {
+    color: var(--main);
+}
+
+select, input {
+    background: transparent;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none; 
+    outline: 0px;  
+    font-size: 1.3em;
+    width: 50%;
+}
+
+input {
+    text-align: end;
+}
+
+#btn-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#btn-container button {
+    background-color: var(--main);
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;;
+}
+
+#from, #to {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#currencyFrom, #currencyTo {
+    width: 100px;
+}
